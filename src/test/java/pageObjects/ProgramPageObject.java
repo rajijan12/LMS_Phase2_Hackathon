@@ -98,7 +98,7 @@ public class ProgramPageObject {
 		int numOfRows=getTotalRows();
 		if(numOfRows>0)
 		{
-			WebElement tabcol=tableRows.get(1);
+			//WebElement tabcol=tableRows.get(1);
 			
 			//WebElement tc = tabcol.findElement(By.tagName("td"));
 			//String searchedtext= tc.getText();

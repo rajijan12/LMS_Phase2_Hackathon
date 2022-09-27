@@ -25,7 +25,7 @@ public class SearchProgramStepDefinition {
 
 	@When("User enters Java into search box.")
 	public void user_enters_java_into_search_box() throws Exception {
-	   programObject.setSearchText("Java");
+	   programObject.setSearchText("Java Basics");
 	   Thread.sleep(1000);
 	}
 

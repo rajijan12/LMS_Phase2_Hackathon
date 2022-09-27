@@ -1,5 +1,7 @@
 package AppHooks;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -19,6 +21,8 @@ public class ApplicationHooks {
 		{
 			driverFactory=new DriverFactory();
 			driver=driverFactory.init_driver();
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		
 			
 		}
